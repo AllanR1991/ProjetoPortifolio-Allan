@@ -1,5 +1,8 @@
 .menu__link{
+    display: flex;
     transition: all 0.5s ease-in-out;
+    /* align-items: center; */
+    gap: 0.5rem;
 }
 
 .menu__link:hover{
@@ -7,4 +10,8 @@
     border: 1px solid transparent;
     border-radius: 21px;
     padding: 0.5rem 1rem;
+}
+
+.menu__link--email:hover::after{
+    content: url("../../../img/email.svg");
 }

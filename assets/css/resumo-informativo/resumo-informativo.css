@@ -1,0 +1,10 @@
+.resumo-informativo{
+    align-items: center;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 56px; */
+    margin: 8.94rem auto 8.94rem auto;
+    max-width: 1440px;
+    padding: 0 6%;
+}

@@ -1,0 +1,6 @@
+.resumo{
+    max-width: 56.8125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.69rem;
+}

@@ -1,0 +1,14 @@
+.perfil__foto {
+    top: 12px;
+    left: 12px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    width: 277px;
+    height: 279px;
+    background-size: cover;
+    background-image: url(../../../img/20230131_064807.jpg);
+    background-position-x: -1px;
+    background-position-y: -65px;
+  }
+  

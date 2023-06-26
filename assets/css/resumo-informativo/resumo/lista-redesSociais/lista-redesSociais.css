@@ -1,0 +1,6 @@
+.lista-redesSociais{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

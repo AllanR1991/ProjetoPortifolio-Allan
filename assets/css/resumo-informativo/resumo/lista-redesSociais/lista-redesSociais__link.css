@@ -1,0 +1,11 @@
+.lista-redesSociais__link{
+    display: flex;
+    align-items: center;
+    color: var(--corLink);
+    
+}
+.lista-redesSociais__link::after{
+    content: url("../../../../icons/arrow-back-black-24-dp-1.svg");
+}
+
+

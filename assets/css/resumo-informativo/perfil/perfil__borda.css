@@ -1,0 +1,7 @@
+.perfil__borda {
+    position: relative;
+    width: 300px;
+    height: 303px;
+    background-size: cover;
+    background-image: url(../../../img/bordaFoto.png);
+  }

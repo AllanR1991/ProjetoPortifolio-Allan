@@ -1,12 +1,16 @@
 :root{
     --corFundoCabecalho: #001E16;
     --corFundoBody: #298A91;
+    --corFundoSecao: #0B5C7D;
+    --corLink: #ABD9B3;
+    --fontTitulo: "Raleway";
 }
 
 
 /*Config Padrao Site*/
 *{
     font-size:  16px;
+    font-family: var(--fontTitulo),"sans-serif";
     text-decoration: none;
     color:#fff;
     box-sizing: border-box;
