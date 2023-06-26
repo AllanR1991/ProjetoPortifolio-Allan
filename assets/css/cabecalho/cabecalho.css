@@ -1,0 +1,12 @@
+.cabecalho{
+    align-items: center;
+    background: var(--corFundoCabecalho);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    padding: 0 6% ;
+    
+}

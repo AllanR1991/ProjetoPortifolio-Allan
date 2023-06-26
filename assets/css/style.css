@@ -1,0 +1,13 @@
+:root{
+    --corFundoCabecalho: #001E16;
+    --corFundoBody: #298A91;
+}
+
+
+/*Config Padrao Site*/
+*{
+    font-size:  16px;
+    text-decoration: none;
+    color:#fff;
+    box-sizing: border-box;
+}

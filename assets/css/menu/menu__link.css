@@ -1,0 +1,10 @@
+.menu__link{
+    transition: all 0.5s ease-in-out;
+}
+
+.menu__link:hover{
+    background-color: #0B5C7D;
+    border: 1px solid transparent;
+    border-radius: 21px;
+    padding: 0.5rem 1rem;
+}
