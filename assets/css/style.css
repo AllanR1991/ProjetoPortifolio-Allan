@@ -1,17 +1,71 @@
-:root{
-    --corFundoCabecalho: #001E16;
-    --corFundoBody: #298A91;
-    --corFundoSecao: #0B5C7D;
-    --corLink: #ABD9B3;
-    --fontTitulo: "Raleway";
+:root {
+  --corFundoCabecalho: #001e16;
+  --corFundoBody: #298a91;
+  --corFundoSecao: #0b5c7d;
+  --corLink: #abd9b3;
+  --fontTitulo: "Raleway";
 }
 
-
 /*Config Padrao Site*/
-*{
-    font-size:  16px;
-    font-family: var(--fontTitulo),"sans-serif";
-    text-decoration: none;
-    color:#fff;
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: var(--fontTitulo), "sans-serif";
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.style__card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.style__fundo-skillHobbies {
+  align-items: center;
+  background: #68b699;
+  border-radius: 50%;
+  display: flex;
+  height: 8.375rem;
+  justify-content: center;
+  width: 8.375rem;
+}
+
+.style__grid {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 6%;
+}
+
+.style__skillshobbies-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-Hobbies__container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.style__sombra::before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+  background-size: cover;
+  content: "";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+}
+
+.style__titulos-h2 {
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 700;
 }

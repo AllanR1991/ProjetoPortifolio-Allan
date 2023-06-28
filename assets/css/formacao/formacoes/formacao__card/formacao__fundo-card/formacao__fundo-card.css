@@ -1,0 +1,11 @@
+.formacao__fundo-card{
+    display: flex;
+    width: 23rem;
+    height: 17.875rem;
+    padding: 1rem;
+    border-radius: 33px;
+    background: #48A496;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}

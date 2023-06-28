@@ -1,0 +1,24 @@
+<svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="akar-icons:html-fill" clip-path="url(#clip0_7_48)">
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_7_48" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="101" height="101">
+<g id="akarIconsHtmlFill0">
+<path id="Vector" d="M0 0H101V101H0V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_7_48)">
+<g id="Group_2">
+<path id="Vector_2" d="M21.3783 0H25.9317V4.49871H30.098V0H34.6514V13.6182H30.098V9.06054H25.9317V13.6182H21.3825L21.3783 0ZM40.6357 4.51554H36.6293V0H49.1996V4.51554H45.1891V13.6182H40.6357V4.51554ZM51.1944 0H55.9414L58.862 4.78487L61.7783 0H66.5253V13.6182H61.9929V6.868L58.862 11.7118H58.782L55.6468 6.87221V13.6182H51.1944V0ZM68.7894 0H73.347V9.11946H79.7437V13.6224H68.7894V0Z" fill="black"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M21.2353 92.8863L12.625 19.8507H88.375L79.7605 92.8779L50.4579 101L21.2353 92.8863ZM38.6451 52.9072L37.8287 43.733H72.1056L72.9052 34.7777H28.0443L30.4599 61.8667H61.5048L60.4653 73.4817L50.4748 76.1835H50.4663L40.4926 73.4901L39.8529 66.3486H30.8555L32.1096 80.4128L50.4579 85.5049L68.8357 80.4128L71.0745 55.3143L71.2934 52.9114H38.6451V52.9072Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7_48">
+<rect width="101" height="101" fill="white"/>
+</clipPath>
+</defs>
+</svg>
