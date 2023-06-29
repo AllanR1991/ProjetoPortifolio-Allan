@@ -1,0 +1,9 @@
+.input__email{
+    background-color: transparent;
+    border: none;
+    color: var(--preto-100, #000);
+}
+
+.input__email:focus{
+    border: none;
+}

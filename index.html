@@ -23,6 +23,7 @@
 
     <link rel="stylesheet" href="./assets/css/resumo-informativo/resumo-informativo.css">
     <link rel="stylesheet" href="./assets/css/resumo-informativo/resumo-container.css">
+    <link rel="stylesheet" href="./assets/css/resumo-informativo/secao-resumo.css">
 
     <link rel="stylesheet" href="./assets/css/resumo-informativo/resumo/resumo.css">
     
@@ -63,22 +64,52 @@
     <link rel="stylesheet" href="assets/css/formacao/formacoes/formacao__card/formacao__fundo-card/formacao__imagem.css">
     <link rel="stylesheet" href="assets/css/formacao/formacoes/formacao__card/formacao__instituicao.css">
     <link rel="stylesheet" href="assets/css/formacao/formacoes/formacao__card/formacao__data-instituicao.css">
+
+    <link rel="stylesheet" href="assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos__container.css">
+    <link rel="stylesheet" href="assets/css/projetos/projetos__titulo.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/imagem-projeto__container/imagem-projeto__container.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/imagem-projeto__container/imagem-projeto__imagem.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto__container.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto-container__informativo/projeto-container__informativo.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto-container__informativo/projeto__titulo.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto-container__informativo/projeto__descricao.css">
+    
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto-container__informativo/projeto-lista/projeto-lista.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__container/projeto-container__informativo/projeto-lista/projeto-lista__item.css">
+    <link rel="stylesheet" href="assets/css/projetos/projeto__containerprojeto-container__informativo/projeto-lista/projeto-lista__link.css">
+
+    <link rel="stylesheet" href="assets/css/contato/contato.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/contato-container.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/informacoes__contatos.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/informacoes__titulos.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/informacoes__descricao.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/formulario__contato.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/label.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/input__nome.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/input__email.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/input__assunto.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/input__mensagem.css">
+    <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/contato__botao.css">
+
 </head>
+
 <body>
     <header class="cabecalho">
-        <p class="cabecalho__titulo">Allan Rodrigues dos Santos</p>
+        <a class="cabecalho__link-titulo" href="#secao-resumo"><p class="cabecalho__titulo">Allan Rodrigues dos Santos</p></a>
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item"><a href="" class="menu__link">Sobre mim</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Formação</a></li>
-                <li class="menu__item"><a href="" class="menu__link">Projetos</a></li>
-                <li class="menu__item"><a href="" class="menu__link menu__link--email">allanrodrigues1991.ar@gmail.com</a></li>
+                <li class="menu__item"><a href="#secao-sobre" class="menu__link">Sobre mim</a></li>
+                <li class="menu__item"><a href="#secao-skillHobbies" class="menu__link">Skills</a></li>
+                <li class="menu__item"><a href="#secao-formacao" class="menu__link">Formação</a></li>
+                <li class="menu__item"><a href="#secao-projetos" class="menu__link">Projetos</a></li>
+                <li class="menu__item">allanrodrigues1991.ar@gmail.com</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="resumo-informativo">
+        
+        <section class="resumo-informativo" id="secao-resumo">
             <div class="resumo-container style__grid">
                 <div class="resumo">
                     <h1 class="resumo__titulo">Olá, meu nome é Allan Rodrigues dos Santos e construo páginas web</h1>
@@ -98,7 +129,8 @@
                 </div>
             </div>
         </section>
-        <section class="sobre style__sombra">
+
+        <section class="sobre style__sombra" id="secao-sobre">
                 <div class="sobre-container style__grid">
                     <div class="sobre-container__imagem"></div>
                     <div class="sobre-conteudo">
@@ -116,7 +148,7 @@
 
         <!-- section.skill-Hobbies>(section.skill-Hobbies__skill>h2{Skills}.style__titulos-h2+div.skills__cards>(div.skill__card>img.skill__imagem+p.skill__descricao)*7)+(section.skill-hobbies__hobbies>h2{Hobbies}.style__titulos-h2+div.hobbies__cards>(div.hobbies__card>img.hobbies__imagem+p.hobbies__descricao)*4) -->
 
-        <section class="skill-Hobbies style__sombra">
+        <section class="skill-Hobbies style__sombra" id="secao-skillHobbies">
             <div class="skill-Hobbies__container style__grid">
                 <section class="skill-Hobbies__container-cards">
                     <h2 class="style__titulos-h2">Skills</h2>
@@ -196,7 +228,8 @@
                 </section>
             </div>
         </section>
-        <section class="formacao style__sombra">
+
+        <section class="formacao style__sombra" id="secao-formacao">
             <div class="formacao-container style__grid">
                 <h2 class="formacao__titulo style__titulos-h2">Formação acadêmica</h2>
                 <div class="formacoes">
@@ -208,8 +241,81 @@
                     <div class="formacao__card">
                         <div class="formacao__fundo-card"><img src="./assets/img/senaisp.png" alt="" class="formacao__imagem"></div>
                         <h3 class="formacao__instituicao">Tecnico Desenvolvimento de Sistemas</h3>
-                        <p class="formacao__data-instituicao">Em andamento - Senai Informatica</p>
+                        <p class="formacao__data-instituicao">Em andamento termino em 12/24- Senai Informatica</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section.projetos>div.projetos__container.style__grid>h2.projetos__titulo.style__titulo-h2+(div.projeto__container>(div.imagem-projeto__container>img.imagem-projeto__imagem)+(div.projeto-container__informativo>h3.projeto__titulo+p.projeto__descricao+(ul.projeto-lista>(li.projeto-lista__item>a.projeto-lista__link[href="#"]{Repositório})+(li.projeto-lista__item>a.projeto-lista__link[href="#"]{Ver demo}))))*4 -->
+
+        <section class="projetos style__sombra" id="secao-projetos">
+            <div class="projetos__container style__grid">
+                <h2 class="projetos__titulo style__titulos-h2">Experiência profissional</h2>
+                <div class="projeto__container projeto__container--lado-contrario">
+                    <div class="imagem-projeto__container"><img src="assets/img/projetoPortifolio.png" alt="" class="imagem-projeto__imagem"></div>
+                    <div class="projeto-container__informativo">
+                        <h3 class="projeto__titulo">Portifólio</h3>
+                        <p class="projeto__descricao">Alura + Oracle - Projeto ONE (Oracle Next Education)</p>
+                        <ul class="projeto-lista">
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Repositório</a></li>
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Ver demo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projeto__container">
+                    <div class="imagem-projeto__container"><img src="./assets/img/projetoDecodificador.png" alt="" class="imagem-projeto__imagem"></div>
+                    <div class="projeto-container__informativo">
+                        <h3 class="projeto__titulo">Decodificador</h3>
+                        <p class="projeto__descricao">Alura + Oracle - Projeto ONE (Oracle Next Education)</p>
+                        <ul class="projeto-lista">
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Repositório</a></li>
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Ver demo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="projeto__container projeto__container--lado-contrario">
+                    <div class="imagem-projeto__container"><img src="assets/img/projetoGamerSenai.png" alt="" class="imagem-projeto__imagem"></div>
+                    <div class="projeto-container__informativo">
+                        <h3 class="projeto__titulo">Gamer</h3>
+                        <p class="projeto__descricao">Senai Informática</p>
+                        <ul class="projeto-lista">
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Repositório</a></li>
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Ver demo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="projeto__container">
+                    <div class="imagem-projeto__container"><img src="./assets/img/projetoAluraBooks.png" alt="" class="imagem-projeto__imagem"></div>
+                    <div class="projeto-container__informativo">
+                        <h3 class="projeto__titulo">Alura Books</h3>
+                        <p class="projeto__descricao">Alura</p>
+                        <ul class="projeto-lista">
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Repositório</a></li>
+                            <li class="projeto-lista__item"><a href="#" class="projeto-lista__link">Ver demo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato style__sombra" id="secao-contato">
+            <div class="contato-container style__grid">
+                <div class="informacoes__contatos">
+                    <h2 class="informacoes__titulos style__titulos-h2">Contato</h2>
+                    <p class="informacoes__descricao">Quer entrar em contato comigo?</p>
+                    <p class="informacoes__descricao">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                        <form action="" class="formulario__contato">
+                            <label class="rotulo" for="input-nome">Nome<input type="text" name="" id="input-nome" class="input__nome" placeholder="Digite seu nome completo."></label>
+                            <label class="rotulo" for="input-email">Email<input type="email" name="input-email" id="input-email" class="input__email" placeholder="exemplo@dominio.com"></label>
+                            
+                            <input type="text" name="" id="" class="input__assunto" placeholder="Assunto">
+
+                            <textarea name="" id="" cols="30" rows="10" class="input__mensagem" placeholder="Mensagem..."></textarea>
+
+                            <button class="contato__botao" type="submit">Enviar Mensagem</button>
+                        </form>
                 </div>
             </div>
         </section>

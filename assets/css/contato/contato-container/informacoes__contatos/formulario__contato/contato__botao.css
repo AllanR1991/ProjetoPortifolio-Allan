@@ -1,0 +1,10 @@
+.contato__botao{
+    display: flex;
+    padding: 1rem;
+    border-radius: 2.625rem;
+    background: #48A496;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: max-content;
+}

@@ -3,8 +3,10 @@
     gap: 1rem;
 }
 
+
 .cabecalho__titulo::before{
     content: url("../../icons/label-important.svg");
     width: 18px;
     height: 12px;
 }
+

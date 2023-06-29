@@ -1,0 +1,10 @@
+.input__mensagem{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        padding: 0.5rem;
+        border-radius: 15px;
+        color: #000;
+        border: none;
+        width: 100%;
+}

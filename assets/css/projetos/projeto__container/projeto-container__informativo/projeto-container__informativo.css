@@ -1,0 +1,7 @@
+.projeto-container__informativo{
+    width: 21.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}

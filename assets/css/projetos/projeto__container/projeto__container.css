@@ -1,0 +1,13 @@
+.projeto__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 2rem 0;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+}
+
+.projeto__container--lado-contrario {
+  flex-direction: row-reverse;
+}

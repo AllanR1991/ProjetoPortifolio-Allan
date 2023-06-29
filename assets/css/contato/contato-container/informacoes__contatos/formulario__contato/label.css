@@ -1,0 +1,9 @@
+.rotulo{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: var(--preto-100, #A2A2A2);
+    width: 100%;
+}

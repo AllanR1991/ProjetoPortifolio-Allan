@@ -1,0 +1,7 @@
+.projeto-lista__item {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  background: #015051;
+}

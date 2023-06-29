@@ -6,6 +6,15 @@
   --fontTitulo: "Raleway";
 }
 
+/* :target{
+  scroll-margin-top: 3rem;
+  
+}
+ */
+html{
+  scroll-behavior: smooth;
+}
+
 /*Config Padrao Site*/
 * {
   box-sizing: border-box;
@@ -36,6 +45,7 @@
   margin: 0 auto;
   max-width: 1440px;
   padding: 0 6%;
+  box-sizing: content-box;
 }
 
 .style__skillshobbies-cards {

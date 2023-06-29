@@ -1,0 +1,9 @@
+.input__nome{
+    background-color: transparent;
+    border: none;
+    color: var(--preto-100, #000);
+}
+
+.input__nome:focus{
+    border: 0 solid transparent;
+}

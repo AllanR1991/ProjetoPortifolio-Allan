@@ -1,0 +1,6 @@
+.imagem-projeto__container{
+    width: 47rem;
+    height: 25.375rem; 
+    display: flex;
+    justify-content: center;
+}

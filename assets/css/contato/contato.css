@@ -1,0 +1,7 @@
+.contato{
+    position: relative;
+    background-image: url(../../img/cabecaEletronica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem
+}

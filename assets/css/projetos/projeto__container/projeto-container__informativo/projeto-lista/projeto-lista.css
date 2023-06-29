@@ -1,6 +1,5 @@
-.formacoes{
+.projeto-lista{
     display: flex;
     justify-content: center;
-    gap: 4rem;
-    flex-wrap: wrap;
+    gap: 2rem;
 }
