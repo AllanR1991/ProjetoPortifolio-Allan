@@ -1,17 +1,48 @@
-.menu__link{
+.menu__link {
     display: flex;
     transition: all 0.5s ease-in-out;
     /* align-items: center; */
     gap: 0.5rem;
+
 }
 
-.menu__link:hover{
+.menu__link:hover {
     background-color: #0B5C7D;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     border-radius: 21px;
     padding: 0.5rem 1rem;
 }
 
-.menu__link--email:hover::after{
-    content: url("../../../img/email.svg");
+
+.menu__link--email {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu__link--email::before {
+    content: "";
+    position: absolute;
+    /* display: flex; */
+    background-image: url("../../../img/email.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    left: -0; 
+    opacity: 0; /* Inicialmente invisível para a transição */
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.menu__link--email:hover::before {
+    left: -30px;
+    opacity: 1; /* Torna a imagem visível */    
+}
+
+.menu__link--email:hover{
+    margin-left: 30px;
 }
