@@ -92,6 +92,8 @@
     <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/input__mensagem.css">
     <link rel="stylesheet" href="assets/css/contato/contato-container/informacoes__contatos/formulario__contato/contato__botao.css">
 
+
+    <script src="assets/index.js" defer></script>
 </head>
 
 <body>
@@ -306,14 +308,11 @@
                     <h2 class="informacoes__titulos style__titulos-h2">Contato</h2>
                     <p class="informacoes__descricao">Quer entrar em contato comigo?</p>
                     <p class="informacoes__descricao">Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-                        <form action="" class="formulario__contato">
-                            <label class="rotulo" for="input-nome">Nome<input type="text" name="" id="input-nome" class="input__nome" placeholder="Digite seu nome completo."></label>
-                            <label class="rotulo" for="input-email">Email<input type="email" name="input-email" id="input-email" class="input__email" placeholder="exemplo@dominio.com"></label>
-                            
-                            <input type="text" name="" id="" class="input__assunto" placeholder="Assunto">
-
-                            <textarea name="" id="" cols="30" rows="10" class="input__mensagem" placeholder="Mensagem..."></textarea>
-
+                        <form action="" class="formulario__contato" method="post" enctype="text/plain">
+                            <label class="rotulo" for="input-nome">Nome<input type="text" name="Nome" id="input-nome" class="input__nome" placeholder="Digite seu nome completo." required></label>
+                            <label class="rotulo" for="input-email">Email<input type="email" name="Email" id="input-email" class="input__email" placeholder="exemplo@dominio.com" required></label>                            
+                            <input type="text" name="Assunto" id="input-assunto" class="input__assunto" placeholder="Assunto" required>
+                            <textarea name="Mensagem" id="input-mensagem" cols="30" rows="10" class="input__mensagem" placeholder="Mensagem..." required></textarea>
                             <button class="contato__botao" type="submit">Enviar Mensagem</button>
                         </form>
                 </div>

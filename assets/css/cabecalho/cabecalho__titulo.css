@@ -10,3 +10,7 @@
     height: 12px;
 }
 
+.cabecalho__titulo:hover{
+    color: var(--corFundoSecao);
+}
+

@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     color: var(--corLink);
-    
+    transition: all 0.1s ease-in-out;   
+    background-color: #0B5C7D;
+    border: 1px solid transparent;
+    border-radius: 21px;
+    padding: 0.5rem 1rem; 
 }
 .lista-redesSociais__link::after{
     content: url("../../../../icons/arrow-back-black-24-dp-1.svg");
