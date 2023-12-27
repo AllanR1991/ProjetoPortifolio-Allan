@@ -1,5 +1,5 @@
-const elementoNome = document.getElementById('input-nome');
-const elementoEmail = document.getElementById('input-email');
+// const elementoNome = document.getElementById('input-nome');
+// const elementoEmail = document.getElementById('input-email');
 const elementoAssunto = document.getElementById('input-assunto');
 const elementoMensagem = document.getElementById('input-mensagem');
 const elementoForm = document.querySelector('.formulario__contato');
@@ -18,8 +18,8 @@ elementoEnviar.addEventListener('click',
 
 function enviarEmail() {
     debugger
-    nome = elementoNome.value;
-    email = elementoEmail.value;
+    // nome = elementoNome.value;
+    // email = elementoEmail.value;
     assunto = elementoAssunto.value;
     mensagem = elementoMensagem.value;
     const dadosDoFormulario = `subject=${assunto}&body=${mensagem}`;

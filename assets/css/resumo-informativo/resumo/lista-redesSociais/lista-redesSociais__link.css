@@ -3,13 +3,29 @@
     align-items: center;
     color: var(--corLink);
     transition: all 0.1s ease-in-out;   
-    background-color: #0B5C7D;
+    /* background-color: #0B5C7D; */
     border: 1px solid transparent;
     border-radius: 21px;
     padding: 0.5rem 1rem; 
+    transition: all 0.5s ease-in-out;
 }
 .lista-redesSociais__link::after{
-    content: url("../../../../icons/arrow-back-black-24-dp-1.svg");
+    content: "";
+  width: 24px;
+  height: 24px;
+  mask-image: url("../../../../icons/arrow-back-black-24-dp-1.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  background-color: var(--corLink);
+  transition: all 0.5s ease-in-out;
+}
+.lista-redesSociais__link:hover::after{
+    background-color: rgb(255, 255, 255);
+}
+.lista-redesSociais__link:hover{
+    background-color: var(--corFundoSecao);
+    color: white;
+    
 }
 
 
